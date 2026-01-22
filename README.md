@@ -1,33 +1,3 @@
-# Ember's Editions
-
-## **Classic Ember**
-* **Legacy Style** : Relied heavily on Ember.Object, Ember.Component, computed properties, and automatic jQuery inclusion.
-* **Gradual Adoption**: Features were added incrementally, allowing apps to mix older and newer patterns. 
-
-## **Ember Octane (v3.15+)**
-* **Modern Defaults**: Became the standard for new apps, bringing major productivity & performance gains.
-* **Key Features**: Native ES Classes, decorators, tracked properties, async/await, Glimmer Components (simpler, faster), and reduced reliance on jQuery.
-* **Interoperability**: Designed for gradual upgrades, allowing teams to adopt parts at their own pace. 
-
-## **Ember Polaris**
-* **Future Direction**: The next major evolutionary step for Ember, building on Octane.
-* **Focus Areas**: Further simplifying components (new authoring format), better build pipeline integration (webpack, Rollup), and a new reactivity system, pushing closer to the broader JS ecosystem. 
-
-## **In Essence:**
-You can think of it as a progression: Classic was the foundation, Octane modernized that foundation, and Polaris refines it further for even better integration with the wider JavaScript world. While Octane became the default years ago, Polaris signals the framework's ongoing commitment to modern standards and developer experience.
-
-# Ember Boilerplate
-* [Emberjs Guide](https://guides.emberjs.com/v2.15.0/)
-* [Ember Boilerplate](https://github.com/TRIPTYK/ember-boilerplate/)
- * Pre-configured ember app for TRIPTYK. Ready for Ember Polaris!
- * Ember 5.x
- * TypeScript
- * TailwindCSS 3.x
- * Ember Concurrency
- * Login, Session, Logout, .
- * Authorization 
- * Embroider
-
 # Dapper vs EFCore vs EFCore.BulkExtensions vs SqlBulkCopy
 * https://dev.to/milanjovanovictech/fast-sql-bulk-inserts-with-c-and-ef-core-4mb6
   * Performance is all that matters? **SqlBulkCopy** is your solution.
@@ -156,9 +126,50 @@ public class HomeController : Controller
 | BulkCopy | 100000 | 646.219 ms |
 | **BulkCopy** | 1000000 | **7,339.298 ms** |
 
+# Ember's Editions
+
+## **Classic Ember**
+* **Legacy Style** : Relied heavily on Ember.Object, Ember.Component, computed properties, and automatic jQuery inclusion.
+* **Gradual Adoption**: Features were added incrementally, allowing apps to mix older and newer patterns. 
+
+## **Ember Octane (v3.15+)**
+* **Modern Defaults**: Became the standard for new apps, bringing major productivity & performance gains.
+* **Key Features**: Native ES Classes, decorators, tracked properties, async/await, Glimmer Components (simpler, faster), and reduced reliance on jQuery.
+* **Interoperability**: Designed for gradual upgrades, allowing teams to adopt parts at their own pace. 
+
+## **Ember Polaris**
+* **Future Direction**: The next major evolutionary step for Ember, building on Octane.
+* **Focus Areas**: Further simplifying components (new authoring format), better build pipeline integration (webpack, Rollup), and a new reactivity system, pushing closer to the broader JS ecosystem. 
+
+## **In Essence:**
+You can think of it as a progression: Classic was the foundation, Octane modernized that foundation, and Polaris refines it further for even better integration with the wider JavaScript world. While Octane became the default years ago, Polaris signals the framework's ongoing commitment to modern standards and developer experience.
+
+# Ember Boilerplate
+* [Emberjs Guide](https://guides.emberjs.com/v2.15.0/)
+* [Ember Boilerplate](https://github.com/TRIPTYK/ember-boilerplate/)
+ * Pre-configured ember app for TRIPTYK. Ready for Ember Polaris!
+ * Ember 5.x
+ * TypeScript
+ * TailwindCSS 3.x
+ * Ember Concurrency
+ * Login, Session, Logout, .
+ * Authorization 
+ * Embroider
+
+# Background Job Engine in .NET Core
+* https://np4652.medium.com/building-a-configurable-background-job-engine-in-net-core-like-hangfire-part-1-d9be899c6ba7
+ * Web build the core background job engine — job definitions, persistence, and execution
+* https://np4652.medium.com/building-a-configurable-background-job-engine-in-net-core-like-hangfire-part-2-b431b34b4ab0
+ * We added a dashboard to monitor, retry, and manage jobs
+* https://np4652.medium.com/building-a-configurable-background-job-engine-in-net-core-like-hangfire-part-3-731127c35c1c
+ * Distributed job locking
+ * Multi-instance processing
+ * Safe retries without duplicates
+ * Worker concurrency control
+
 # Modern Web Development
 * [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 * [Web Development Best Practices](https://www.geeksforgeeks.org/blogs/web-development-best-practices/)
 * [Top Coding Standards Every Web Development Team Should Follow](https://www.innoraft.ai/blog/web-development-coding-standards-best-practices)
-* Frontend Framework: Ember.js
-* Backend Framework: ASP.NET Core
+* **Frontend Framework**: **Ember.js**
+* **Backend Framework**: **ASP.NET Core**
