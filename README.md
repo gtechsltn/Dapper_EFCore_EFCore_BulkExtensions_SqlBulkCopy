@@ -17,7 +17,8 @@
 You can think of it as a progression: Classic was the foundation, Octane modernized that foundation, and Polaris refines it further for even better integration with the wider JavaScript world. While Octane became the default years ago, Polaris signals the framework's ongoing commitment to modern standards and developer experience.
 
 # Ember Boilerplate
-* https://github.com/TRIPTYK/ember-boilerplate/
+* [Emberjs Guide](https://guides.emberjs.com/v2.15.0/)
+* [Ember Boilerplate](https://github.com/TRIPTYK/ember-boilerplate/)
  * Pre-configured ember app for TRIPTYK. Ready for Ember Polaris!
  * Ember 5.x
  * TypeScript
