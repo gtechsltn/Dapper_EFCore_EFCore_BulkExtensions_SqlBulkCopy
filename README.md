@@ -1,5 +1,33 @@
-# Dapper vs EFCore vs EFCore.BulkExtensions vs SqlBulkCopy
+# Ember.js Editions
+
+## **Classic Ember**
+* **Legacy Style*** : Relied heavily on Ember.Object, Ember.Component, computed properties, and automatic jQuery inclusion.
+* **Gradual Adoption**: Features were added incrementally, allowing apps to mix older and newer patterns. 
+
+## **Ember Octane (v3.15+)**
+* **Modern Defaults**: Became the standard for new apps, bringing major productivity & performance gains.
+* **Key Features**: Native ES Classes, decorators, tracked properties, async/await, Glimmer Components (simpler, faster), and reduced reliance on jQuery.
+* **Interoperability**: Designed for gradual upgrades, allowing teams to adopt parts at their own pace. 
+
+## **Ember Polaris**
+* **Future Direction**: The next major evolutionary step for Ember, building on Octane.
+* **Focus Areas**: Further simplifying components (new authoring format), better build pipeline integration (webpack, Rollup), and a new reactivity system, pushing closer to the broader JS ecosystem. 
+
+## **In Essence:**
+You can think of it as a progression: Classic was the foundation, Octane modernized that foundation, and Polaris refines it further for even better integration with the wider JavaScript world. While Octane became the default years ago, Polaris signals the framework's ongoing commitment to modern standards and developer experience.
+
+# Ember Boilerplate
 * https://github.com/TRIPTYK/ember-boilerplate/
+ * Pre-configured ember app for TRIPTYK. Ready for Ember Polaris!
+ * Ember 5.x
+ * TypeScript
+ * TailwindCSS 3.x
+ * Ember Concurrency
+ * Login, Session, Logout, .
+ * Authorization 
+ * Embroider
+
+# Dapper vs EFCore vs EFCore.BulkExtensions vs SqlBulkCopy
 * https://dev.to/milanjovanovictech/fast-sql-bulk-inserts-with-c-and-ef-core-4mb6
   * Performance is all that matters? **SqlBulkCopy** is your solution.
   * Need excellent speed and streamlined development? **EF Core** is a smart choice.
