@@ -1,4 +1,4 @@
-# Ember.js Editions
+# Ember's Editions
 
 ## **Classic Ember**
 * **Legacy Style** : Relied heavily on Ember.Object, Ember.Component, computed properties, and automatic jQuery inclusion.
@@ -154,3 +154,10 @@ public class HomeController : Controller
 | BulkCopy | 10000 | 68.364 ms |
 | BulkCopy | 100000 | 646.219 ms |
 | **BulkCopy** | 1000000 | **7,339.298 ms** |
+
+# Modern Web Development
+* [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+* [Web Development Best Practices](https://www.geeksforgeeks.org/blogs/web-development-best-practices/)
+* [Top Coding Standards Every Web Development Team Should Follow](https://www.innoraft.ai/blog/web-development-coding-standards-best-practices)
+* Frontend Framework: Ember.js
+* Backend Framework: ASP.NET Core
