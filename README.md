@@ -1,7 +1,7 @@
 # Ember.js Editions
 
 ## **Classic Ember**
-* **Legacy Style*** : Relied heavily on Ember.Object, Ember.Component, computed properties, and automatic jQuery inclusion.
+* **Legacy Style** : Relied heavily on Ember.Object, Ember.Component, computed properties, and automatic jQuery inclusion.
 * **Gradual Adoption**: Features were added incrementally, allowing apps to mix older and newer patterns. 
 
 ## **Ember Octane (v3.15+)**
