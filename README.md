@@ -1,13 +1,25 @@
 # Dapper vs EFCore vs EFCore.BulkExtensions vs SqlBulkCopy
+* [Dapper](https://github.com/DapperLib/Dapper)
+* [Dapper.Contrib](https://github.com/DapperLib/Dapper.Contrib)
+* [Bulk.Dapper or **Z.Dapper.Plus**](https://dapper-plus.net/bulk-insert)
+* [**Dapper.Contrib.Bulk**](https://github.com/nghiand1010/Dapper.Contrib.Bulk)
+* [Entity Framework Extensions](https://entityframework-extensions.net/)
+* [Entity Framework Extensions: Insert From Query](https://entityframework-extensions.net/insert-from-query)
+* [EFCore.BulkExtensions](https://github.com/borisdj/EFCore.BulkExtensions)
+* [EntityFramework.Extended](https://github.com/zzzprojects/EntityFramework.Extended)
 * https://dev.to/milanjovanovictech/fast-sql-bulk-inserts-with-c-and-ef-core-4mb6
   * Performance is all that matters? **SqlBulkCopy** is your solution.
   * Need excellent speed and streamlined development? **EF Core** is a smart choice.
+* https://np4652.medium.com/bulk-insert-into-sql-server-using-net-8-sqlbulkcopy-vs-table-valued-parameters-tvp-3a50a05acb81
+ * **SqlBulkCopy** — The fastest way to write raw data to the SQL Server.
+ * **Table-Valued Parameters (TVP)** — a more structured, stored-procedure-friendly approach.
 * https://dotnetfullstackdev.medium.com/bulk-insert-as-batch-sized-into-sql-database-from-net-web-application-2e8607cf9a61
   * Log and Alert
   * Manual Intervention
   * Automated Recovery
   * Rollback and Retry (Transaction)
   * Error Handling Improvements
+* [Bulk Operations on RepoDB](https://dev.to/mikependon/c-bulk-operations-for-net-core-bulkdelete-bulkinsert-bulkmerge-bulkupdate-is-now-very-simple-with-repodb-orm-3can)
 * [Callbacks in C#](https://dotnetfullstackdev.medium.com/callbacks-in-c-made-simple-delegates-multicast-delegates-real-callback-flow-end-to-end-b1f227a5bb6e)
   * Background jobs notifying UI
   * File upload progress
